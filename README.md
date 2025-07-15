@@ -1,0 +1,1 @@
+# Raspagem de Informações de Arquivos e Pastas
