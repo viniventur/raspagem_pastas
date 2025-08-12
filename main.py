@@ -60,11 +60,11 @@ def raspar_diretorio(diretorio_raiz):
                 "Nome do arquivo": pasta,
                 "Tipo": "Pasta",
                 "Extensão": "Pasta",
+                "Tipo Simplificado": "Pasta",
+                "Tamanho (MB)": tamanho_mb,
                 "Caminho": caminho_completo,
                 "Pasta Mãe": pasta_mae,
                 "Caminho Pasta": caminho_pasta,
-                "Tipo Simplificado": "Pasta",
-                "Tamanho (MB)": tamanho_mb,
                 "Data/Hora da última modificação": data_modificacao
             })
 
@@ -83,11 +83,11 @@ def raspar_diretorio(diretorio_raiz):
                 "Nome do arquivo": nome,
                 "Tipo": "Arquivo",
                 "Extensão": extensao if extensao else "Sem extensão",
+                "Tipo Simplificado": tipo_simplificado,
+                "Tamanho (MB)": tamanho_mb,
                 "Caminho": caminho_completo,
                 "Pasta Mãe": pasta_mae,
                 "Caminho Pasta": caminho_pasta,
-                "Tipo Simplificado": tipo_simplificado,
-                "Tamanho (MB)": tamanho_mb,
                 "Data/Hora da última modificação": data_modificacao
             })
 
